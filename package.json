@@ -8,7 +8,8 @@
   "license": "Apache-2.0",
   "scripts": {
     "start": "node index.js",
-    "prod": "PROD=true node index.js"
+    "prod": "PROD=true node index.js",
+    "deploy": "scp -r ./routes ./model ./controllers ./helpers ./package.json ./yarn.lock index.js ./config.json  magneton:~/delibird"
   },
   "dependencies": {
     "cors": "^2.8.5",
