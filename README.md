@@ -1,2 +1,2 @@
 # cuhacking-mail
-project ??? | Our microservice responsible for sending emails
+project: Delibird | Our microservice responsible for sending emails

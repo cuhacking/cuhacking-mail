@@ -1,7 +1,7 @@
 {
   "name": "cuhacking-mail",
   "version": "1.0.0",
-  "description": "project ??? | Our microservice for sending emails",
+  "description": "project: Delibird | Our microservice for sending emails",
   "main": "index.js",
   "repository": "git@github.com:cuhacking/cuhacking-mail.git",
   "author": "walsker <walskerw@gmail.com>",
