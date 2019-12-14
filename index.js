@@ -20,7 +20,7 @@ app.use((error, req, res, next) => {
   res.sendStatus(error.status || 500)
 })
 
-app.use('/users', users)
+app.use('/mail/users', users)
 
 const port = process.env.PORT || 3000
 app.listen(port)
